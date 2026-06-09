@@ -119,7 +119,7 @@ export default function CheckoutSection() {
               rel="noopener noreferrer"
               animate={{ scale: [1, 1.02, 1] }}
               transition={{ repeat: Infinity, duration: 1.8, ease: "easeInOut" }}
-              className="inline-block w-full max-w-xl py-4 sm:py-5 px-8 sm:px-12 bg-gradient-to-r from-gold-400 via-gold-300 to-gold-500 hover:from-gold-300 hover:to-gold-400 text-earth-950 text-base sm:text-lg font-black font-display tracking-wider rounded-2xl shadow-2xl transition-all duration-300 hover:shadow-gold-500/10"
+              className="inline-block w-full max-w-xl py-4 sm:py-5 px-8 sm:px-12 btn-premium-gold hover-glow-gold text-base sm:text-lg font-black font-display tracking-widest rounded-2xl shadow-2xl transition-all duration-300"
             >
               QUERO GARANTIR MINHA VAGA COM DESCONTO
             </motion.a>

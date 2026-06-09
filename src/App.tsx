@@ -101,7 +101,7 @@ export default function App() {
           <div className="hidden md:block">
             <button
               onClick={handleScrollDirectToCheckout}
-              className="px-4.5 py-2 text-xs font-bold font-display bg-gradient-to-r from-gold-400 to-gold-500 hover:from-gold-300 hover:to-gold-400 text-earth-950 rounded-lg shadow-lg hover:shadow-gold-400/10 transition-all hover:scale-105 cursor-pointer"
+              className="px-5 py-2.5 text-xs font-black font-display btn-premium-gold hover-glow-gold rounded-lg shadow-xl cursor-pointer"
             >
               GARANTIR MINHA VAGA
             </button>
@@ -152,7 +152,7 @@ export default function App() {
 
           <button
             onClick={handleScrollDirectToCheckout}
-            className="w-full max-w-xs py-3 px-6 bg-gradient-to-r from-gold-400 to-gold-500 text-earth-950 font-black font-display text-sm uppercase rounded-xl shadow-xl hover:scale-105 transition"
+            className="w-full max-w-xs py-3.5 px-6 btn-premium-gold hover-glow-gold text-sm font-black font-display uppercase rounded-xl shadow-2xl"
           >
             Fazer Minha Inscrição
           </button>

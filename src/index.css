@@ -58,3 +58,55 @@
 .animate-marquee:hover {
   animation-play-state: paused;
 }
+
+@keyframes gold-shine {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* Premium Ultra-Luminous Gold Shimmer & Glow for Premium Conversion Rate Optimization (CRO) with Goldenrod (#DAA520) */
+.btn-premium-gold {
+  background: linear-gradient(
+    135deg,
+    #9B7213 0%,
+    #DAA520 25%,
+    #ffffff 50%,
+    #DAA520 75%,
+    #9B7213 100%
+  );
+  background-size: 200% auto;
+  color: #0f0a08;
+  font-weight: 900;
+  border: 1px solid #ffea80;
+  box-shadow: 0 0 15px rgba(218, 165, 32, 0.55), inset 0 1px 1px rgba(255, 255, 255, 0.6);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+  animation: gold-shine 4.5s infinite linear;
+  transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.btn-premium-gold:hover {
+  transform: scale(1.05) translateY(-2px);
+  box-shadow: 0 0 30px rgba(218, 165, 32, 0.85), inset 0 2px 2px rgba(255, 255, 255, 0.8);
+  filter: brightness(1.1);
+}
+
+.btn-premium-gold:active {
+  transform: scale(0.98) translateY(0);
+}
+
+/* Highly responsive gold text accent color for clickable high conversion navigation highlights using Goldenrod (#DAA520) */
+.text-accent-vibrant {
+  color: #DAA520;
+  text-shadow: 0 0 10px rgba(218, 165, 32, 0.4);
+  transition: all 0.3s ease;
+}
+
+.text-accent-vibrant:hover {
+  color: #ffffff;
+  text-shadow: 0 0 15px rgba(218, 165, 32, 0.65);
+}
+
