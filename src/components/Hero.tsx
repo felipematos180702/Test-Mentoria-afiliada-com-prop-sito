@@ -20,11 +20,11 @@ export default function Hero() {
           src="https://lh3.googleusercontent.com/d/1i5NJSGn5SuhCXDlKfsUryC75gdoZyd8m"
           alt="Background"
           referrerPolicy="no-referrer"
-          className="w-full h-full object-cover object-center scale-105 filter brightness-125 contrast-110 opacity-95 animate-fade-in"
+          className="w-full h-full object-cover object-center scale-102 sm:scale-105 filter brightness-125 contrast-110 opacity-95 animate-fade-in"
         />
         {/* Optimized lighter premium overlays to protect text legibility without washing out the golden lines and textures */}
-        <div className="absolute inset-0 bg-gradient-to-b from-earth-950/20 via-earth-950/40 to-earth-950" />
-        <div className="absolute inset-0 bg-radial-gradient from-transparent to-earth-950/60" />
+        <div className="absolute inset-0 bg-gradient-to-b from-earth-950/10 via-earth-950/35 to-earth-950" />
+        <div className="absolute inset-0 bg-radial-gradient from-transparent to-earth-950/50" />
       </div>
 
       {/* Absolute graphic layout backgrounds */}
@@ -160,32 +160,35 @@ export default function Hero() {
 
           {/* Right Column: Producer's Portrait - Floating cut-out effect with asymmetric overlay */}
           <motion.div
-            initial={{ opacity: 0, scale: 0.92, x: 40 }}
-            animate={{ opacity: 1, scale: 1.05, x: 0 }}
+            initial={{ opacity: 0, scale: 0.95, x: 40 }}
+            animate={{ opacity: 1, scale: 1.1, x: 0 }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
-            className="lg:col-span-5 flex justify-center relative lg:-ml-12 xl:-ml-16 z-20"
+            className="lg:col-span-5 flex justify-center relative lg:-ml-12 xl:-ml-16 mt-6 sm:-mt-16 lg:-mt-28 z-20"
           >
             {/* Glowing Backdrop Halo */}
             <div className="absolute inset-x-10 inset-y-20 bg-gold-500/15 rounded-full blur-[60px] pointer-events-none" />
 
-            <div className="relative group/portrait max-w-xs sm:max-w-md w-full">
+            <div className="relative group/portrait max-w-[240px] xs:max-w-[280px] sm:max-w-lg lg:max-w-xl w-full">
               {/* Floating cutout container without borders or solid backgrounds */}
-              <div className="relative pointer-events-auto flex flex-col items-center">
+              <div className="relative pointer-events-auto flex flex-col items-center overflow-hidden h-[320px] xs:h-[370px] sm:h-[520px] md:h-[640px] lg:h-[750px] xl:h-[780px]">
                 <motion.img 
-                  src="https://lh3.googleusercontent.com/d/1-53cb9lJXA3JeZDxkBYDYt4jdz7Y6oZd"
+                  src="https://lh3.googleusercontent.com/d/1PahcaVEF_5mgpAvVkyBXPSPHtt_cmpL6"
                   alt="Isabelly Mariano - Mentora AP"
                   referrerPolicy="no-referrer"
-                  animate={{ y: [0, -8, 0] }}
+                  animate={{ y: [0, -12, 0] }}
                   transition={{ repeat: Infinity, duration: 6, ease: "easeInOut" }}
-                  className="w-full h-auto object-contain filter drop-shadow-[0_25px_25px_rgba(212,175,55,0.15)] brightness-105 contrast-[1.02] transition-transform duration-500 group-hover/portrait:scale-103"
+                  className="w-full h-full object-cover object-top filter drop-shadow-[0_25px_25px_rgba(218,165,32,0.25)] brightness-105 contrast-[1.03] transition-all duration-700 ease-out group-hover/portrait:scale-105"
                 />
 
+                {/* Elegant subtle bottom fade so the cut-out waist melts seamlessly into the background */}
+                <div className="absolute inset-x-0 bottom-0 h-16 sm:h-24 bg-gradient-to-t from-[#0e0705] via-[#0e0705]/80 to-transparent pointer-events-none z-10" />
+
                 {/* Highly elegant float badge at bottom of floating portrait layout */}
-                <div className="absolute bottom-4 bg-earth-950/80 border border-gold-400/30 rounded-2xl px-5 py-2.5 backdrop-blur-md shadow-2xl text-center pointer-events-none transform translate-y-3">
-                  <h4 className="text-xs sm:text-sm font-display font-black text-white tracking-wide uppercase">
+                <div className="absolute bottom-3 sm:bottom-6 bg-earth-950/90 border border-gold-400/30 rounded-xl sm:rounded-2xl px-4 py-2 sm:px-6 sm:py-3 backdrop-blur-md shadow-2xl text-center pointer-events-none transform z-20">
+                  <h4 className="text-xs sm:text-base font-display font-black text-white tracking-wide uppercase">
                     Isabelly Mariano
                   </h4>
-                  <p className="text-[9px] sm:text-[10px] text-gold-400 font-bold uppercase tracking-widest mt-0.5">
+                  <p className="text-[8px] sm:text-xs text-gold-400 font-bold uppercase tracking-widest mt-0.5">
                     Fundadora da Mentoria AP
                   </p>
                 </div>

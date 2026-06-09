@@ -29,10 +29,10 @@ export default function About() {
               <div className="relative rounded-3xl overflow-hidden border border-gold-400/30 shadow-2xl max-w-full group/img">
                 {/* Real premium portrait from Google Drive with smooth zoom on parent/image hover and high-contrast color styling */}
                 <img
-                  src="https://lh3.googleusercontent.com/d/1xXGGCoTx9XWWIytLZKtsUlVkvn1ToU-8"
+                  src="https://lh3.googleusercontent.com/d/1gGCkPBNe0yvTe5JYT8xJlO316XyvkRFX"
                   alt="Isabelly Mariano - Fundadora da Mentoria AP"
                   referrerPolicy="no-referrer"
-                  className="w-full max-w-xs sm:max-w-sm object-cover aspect-[3/4] h-[450px] transform scale-102 group-hover/img:scale-105 group-hover/img:brightness-105 group-hover/img:contrast-105 transition-all duration-700 ease-out"
+                  className="w-full max-w-xs sm:max-w-sm object-cover object-top aspect-[3/4] h-[480px] transform scale-102 group-hover/img:scale-105 group-hover/img:brightness-105 group-hover/img:contrast-105 transition-all duration-700 ease-out"
                 />
                 
                 {/* Badge Overlay */}
