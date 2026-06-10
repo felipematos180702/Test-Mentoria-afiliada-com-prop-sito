@@ -27,13 +27,13 @@ export default function ModulesCarousel() {
         {/* Title Block */}
         <div className="text-center mb-16">
           <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-gold-400/10 border border-gold-400/20 text-gold-400 text-xs font-semibold uppercase tracking-widest rounded-full mb-4">
-            <BookOpen className="h-4.5 w-4.5" /> Conteúdo Programático
+            <BookOpen className="h-4.5 w-4.5" /> Módulos exclusivos
           </span>
           <h2 className="text-3xl sm:text-4xl font-display font-extrabold text-white tracking-tight mb-4">
-            A Grade do Negócio <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold-300 via-gold-400 to-gold-200">Sólido e Lucrativo</span>
+            O caminho que vai te levar <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold-300 via-gold-400 to-gold-200">do zero aos seus primeiros resultados</span>
           </h2>
           <p className="text-zinc-300 max-w-2xl mx-auto text-sm sm:text-base leading-relaxed">
-            Uma trilha lógica que te pega pela mão, cobrindo o zero absoluto até o posicionamento sofisticado nos maiores ecossistemas digitais. Em cada módulo você tem acesso a materiais para download e exercícios.
+            Você não precisa descobrir tudo sozinho. A Mentoria AP foi estruturada em uma sequência prática para ajudar você a sair do zero, desenvolver as habilidades certas e construir sua presença e suas vendas nos maiores marketplaces do Brasil.
           </p>
         </div>
 
@@ -137,6 +137,52 @@ export default function ModulesCarousel() {
             />
           ))}
         </div>
+
+        {/* Extra Access Checklist Section */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="mt-20 max-w-4xl mx-auto bg-gradient-to-br from-earth-950 to-earth-900 border border-gold-400/20 rounded-3xl p-8 sm:p-10 shadow-2xl relative"
+        >
+          {/* Decorative small sparkle accent */}
+          <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 bg-gold-400/15 border border-gold-400/30 text-gold-300 text-[10px] sm:text-xs font-bold uppercase tracking-widest rounded-full backdrop-blur-md">
+            Bônus & Acompanhamento
+          </div>
+
+          <h3 className="text-xl sm:text-2xl font-display font-extrabold text-white text-center mb-8 tracking-tight">
+            Você também terá <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold-300 to-gold-100">acesso a:</span>
+          </h3>
+
+          <div className="grid grid-cols-2 md:grid-cols-2 gap-2.5 sm:gap-6">
+            {[
+              "Comunidade exclusiva de afiliados",
+              "Grupo de suporte para dúvidas",
+              "Atualizações constantes",
+              "Encontros ao vivo",
+              "Acompanhamento próximo",
+              "Materiais complementares",
+              "Estratégias atualizadas conforme o mercado"
+            ].map((item, idx) => (
+              <motion.div
+                key={idx}
+                initial={{ opacity: 0, x: -15 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.4, delay: idx * 0.05 }}
+                className="flex items-center gap-2 sm:gap-3.5 bg-earth-950/40 border border-gold-400/5 hover:border-gold-400/15 p-2.5 xs:p-3 sm:px-5 sm:py-4 rounded-xl transition-all duration-300 hover:translate-x-1"
+              >
+                <div className="flex-shrink-0 flex items-center justify-center w-4.5 h-4.5 sm:w-6 sm:h-6 bg-gold-400/15 rounded-full border border-gold-400/40">
+                  <span className="text-gold-400 text-[9px] sm:text-xs font-bold font-sans">✓</span>
+                </div>
+                <span className="text-zinc-200 text-[10px] xs:text-xs sm:text-base font-medium leading-tight">
+                  {item}
+                </span>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
 
       </div>
     </section>

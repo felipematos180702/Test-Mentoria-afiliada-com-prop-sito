@@ -31,10 +31,10 @@ export default function Testimonials() {
             <MessageCircle className="h-4.5 w-4.5" /> Depoimentos Reais
           </span>
           <h2 className="text-3xl sm:text-4xl font-display font-extrabold text-white tracking-tight mb-4">
-            Resultados de <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold-300 via-gold-400 to-gold-200">Milhares de Alunos</span>
+            Mais de <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold-300 via-gold-400 to-gold-200">1.200 Pessoas</span> Já Decidiram Começar
           </h2>
           <p className="text-zinc-300 max-w-2xl mx-auto text-sm sm:text-base leading-relaxed">
-            Veja o que dizem as pessoas comuns que saíram do absoluto zero e alcançaram sua independência com a metodologia com propósito.
+            Conheça histórias reais de alunos que encontraram no digital uma oportunidade para gerar renda, conquistar mais liberdade e transformar suas vidas.
           </p>
         </div>
 
@@ -93,26 +93,26 @@ export default function Testimonials() {
         </motion.div>
 
         {/* Floating Stat badging inside section for extra conversion weight */}
-        <div className="mt-16 flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-12 bg-earth-950/60 border border-gold-400/10 p-6 rounded-2xl max-w-3xl mx-auto backdrop-blur-sm">
-          <div className="text-center sm:text-left">
-            <h3 className="text-3xl font-display font-extrabold text-gold-400">
-              +15.000
+        <div className="mt-16 flex flex-row items-center justify-between sm:justify-center gap-1.5 xs:gap-3 sm:gap-12 bg-earth-950/60 border border-gold-400/10 p-3 sm:p-6 rounded-2xl max-w-3xl mx-auto backdrop-blur-sm">
+          <div className="text-center flex-1 sm:flex-initial">
+            <h3 className="text-base xs:text-xl sm:text-3xl font-display font-extrabold text-gold-400 leading-none">
+              +1.200
             </h3>
-            <p className="text-xs text-zinc-400 font-medium mt-1">Alunos Transformados no Brasil</p>
+            <p className="text-[9px] xs:text-[10px] sm:text-xs text-zinc-400 font-medium mt-1 sm:mt-1.5 leading-tight">Alunos Impactados</p>
           </div>
-          <div className="h-px sm:h-12 w-24 sm:w-px bg-gold-400/20" />
-          <div className="text-center sm:text-left">
-            <h3 className="text-3xl font-display font-extrabold text-gold-400">
-              98.2%
+          <div className="h-8 sm:h-12 w-px bg-gold-400/20 flex-shrink-0" />
+          <div className="text-center flex-1 sm:flex-initial">
+            <h3 className="text-base xs:text-xl sm:text-3xl font-display font-extrabold text-gold-400 leading-none">
+              100%
             </h3>
-            <p className="text-xs text-zinc-400 font-medium mt-1">Índice de Recomendação e Satisfação</p>
+            <p className="text-[9px] xs:text-[10px] sm:text-xs text-zinc-400 font-medium mt-1 sm:mt-1.5 leading-tight">Acesso Online</p>
           </div>
-          <div className="h-px sm:h-12 w-24 sm:w-px bg-gold-400/20" />
-          <div className="text-center sm:text-left">
-            <h3 className="text-3xl font-display font-extrabold text-gold-400">
-              24/7
+          <div className="h-8 sm:h-12 w-px bg-gold-400/20 flex-shrink-0" />
+          <div className="text-center flex-1 sm:flex-initial">
+            <h3 className="text-base xs:text-xl sm:text-3xl font-display font-extrabold text-gold-400 leading-none">
+              Comunidade
             </h3>
-            <p className="text-xs text-zinc-400 font-medium mt-1">Comunidade Global & Apoio Prático</p>
+            <p className="text-[9px] xs:text-[10px] sm:text-xs text-zinc-400 font-medium mt-1 sm:mt-1.5 leading-tight">Ativa e Colaborativa</p>
           </div>
         </div>
       </div>

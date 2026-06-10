@@ -56,12 +56,12 @@ export default function Hero() {
               className="text-white flex flex-col font-display leading-tight text-center lg:text-left"
             >
               <span className="text-xs sm:text-sm md:text-base font-bold uppercase tracking-widest text-gold-400 mb-2 sm:mb-3">
-                Descubra como Construir um
+                Descubra como Transformar sua
               </span>
               <span className="text-4xl sm:text-5xl md:text-6xl lg:text-[76px] font-extrabold tracking-tight text-white leading-[1.05] mb-2 sm:mb-3">
-                Negócio Digital{" "}
+                Realidade Através{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ebd59b] via-[#e2c16e] to-[#fcf5e3] block">
-                  Sólido e Lucrativo
+                  do Digital
                 </span>
               </span>
               <span className="text-xs sm:text-sm md:text-base font-medium text-zinc-400 tracking-wide uppercase mt-1">
@@ -76,7 +76,7 @@ export default function Hero() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="text-zinc-300 text-sm sm:text-base md:text-lg leading-relaxed font-sans font-light max-w-2xl mx-auto lg:mx-0"
             >
-              <strong className="text-white font-medium">Mentoria Afiliada com Propósito (AP).</strong> O método definitivo para você começar do absoluto ZERO e dominar as melhores estratégias de vendas nos maiores marketplaces do mercado digital (Shopee, Mercado Livre e TikTok Shop).
+              <strong className="text-white font-semibold">Mais do que uma mentoria, uma comunidade</strong> para quem deseja transformar sua realidade através do digital. Aprenda um método passo a passo para vender na <strong className="text-white font-medium">Shopee, Mercado Livre e TikTok Shop</strong>, com acompanhamento, suporte e direcionamento para ajudar você a construir sua jornada com mais segurança e confiança.
             </motion.p>
 
             {/* Interactive Benefits Pills underneath subheader */}

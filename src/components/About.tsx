@@ -29,7 +29,7 @@ export default function About() {
               <div className="relative rounded-3xl overflow-hidden border border-gold-400/30 shadow-2xl max-w-full group/img">
                 {/* Real premium portrait from Google Drive with smooth zoom on parent/image hover and high-contrast color styling */}
                 <img
-                  src="https://lh3.googleusercontent.com/d/1gGCkPBNe0yvTe5JYT8xJlO316XyvkRFX"
+                  src="https://lh3.googleusercontent.com/d/1FCDzGKrfriqUjzZXgDAaHMPjlyXC12UJ"
                   alt="Isabelly Mariano - Fundadora da Mentoria AP"
                   referrerPolicy="no-referrer"
                   className="w-full max-w-xs sm:max-w-sm object-cover object-top aspect-[3/4] h-[480px] transform scale-102 group-hover/img:scale-105 group-hover/img:brightness-105 group-hover/img:contrast-105 transition-all duration-700 ease-out"
@@ -64,13 +64,16 @@ export default function About() {
 
             <div className="text-zinc-300 space-y-4 text-sm sm:text-base leading-relaxed font-sans">
               <p>
-                <strong className="text-white">Isabelly Mariano</strong> é Cristã, Empresária e Mentora de Afiliados. Com uma comunidade consolidada de milhares de alunos engajados, ela ensina pessoas comuns a transformarem suas realidades trabalhando no conforto de suas casas, usando apenas o telefone celular.
+                <strong className="text-white font-semibold">Isabelly Mariano</strong> é empresária, mentora de afiliados e fundadora da <strong className="text-gold-300 font-semibold">Mentoria Afiliada com Propósito</strong>.
               </p>
               <p>
-                Através de uma metodologia autoral baseada em planejamento tático, <span className="border-b border-gold-400/30 text-white font-medium pb-0.5">posicionamento orgânico magnético</span> e, acima de tudo, <strong className="text-gold-300">PROPÓSITO</strong>, ela guia seus alunos pelo caminho exato para comercializar nos maiores marketplaces do mundo de forma ética e escalável.
+                Após transformar sua própria realidade através do digital, hoje ajuda pessoas comuns a construírem uma nova fonte de renda utilizando apenas o celular, através de estratégias práticas para <strong className="text-white font-medium">Shopee, Mercado Livre e TikTok Shop</strong>.
               </p>
               <p>
-                Sua missão pessoal é libertar pessoas de rotinas cansativas ou trabalhos sem perspectiva através do empreendedorismo digital ético, transformando o celular em um canal abundante de faturamento limpo.
+                Com uma comunidade ativa e suporte próximo aos alunos, seu objetivo é mostrar que é possível conquistar mais liberdade de tempo, qualidade de vida e novas oportunidades através do empreendedorismo digital.
+              </p>
+              <p>
+                Movida por <strong className="text-gold-400 font-semibold">princípios cristãos</strong>, acredita que prosperidade, propósito e ética podem caminhar juntos, construindo negócios sólidos e duradouros.
               </p>
             </div>
 

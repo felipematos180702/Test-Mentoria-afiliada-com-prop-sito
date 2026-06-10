@@ -7,17 +7,17 @@ export default function Benefits() {
   const getIcon = (id: number) => {
     switch (id) {
       case 1:
-        return <CheckCircle2 className="h-6 w-6 text-gold-400" />;
+        return <CheckCircle2 className="h-5 w-5 sm:h-6 sm:w-6 text-gold-400" />;
       case 2:
-        return <TrendingUp className="h-6 w-6 text-gold-400" />;
+        return <TrendingUp className="h-5 w-5 sm:h-6 sm:w-6 text-gold-400" />;
       case 3:
-        return <Compass className="h-6 w-6 text-gold-400" />;
+        return <Compass className="h-5 w-5 sm:h-6 sm:w-6 text-gold-400" />;
       case 4:
-        return <Award className="h-6 w-6 text-gold-400" />;
+        return <Award className="h-5 w-5 sm:h-6 sm:w-6 text-gold-400" />;
       case 5:
-        return <PhoneCall className="h-6 w-6 text-gold-400" />;
+        return <PhoneCall className="h-5 w-5 sm:h-6 sm:w-6 text-gold-400" />;
       default:
-        return <CheckCircle2 className="h-6 w-6 text-gold-400" />;
+        return <CheckCircle2 className="h-5 w-5 sm:h-6 sm:w-6 text-gold-400" />;
     }
   };
 
@@ -69,59 +69,59 @@ export default function Benefits() {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true, margin: "-120px" }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+          className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-8"
         >
           {BENEFITS.map((benefit) => (
             <motion.div
               key={benefit.id}
               variants={cardVariants}
               whileHover={{ scale: 1.03, y: -4 }}
-              className="flex flex-col justify-between bg-earth-900/40 border border-gold-400/10 hover:border-gold-400/30 rounded-2xl p-6 sm:p-8 backdrop-blur-sm transition-all duration-300 group shadow-lg"
+              className="flex flex-col justify-between bg-earth-900/40 border border-gold-400/10 hover:border-gold-400/30 rounded-xl sm:rounded-2xl p-3.5 xs:p-5 sm:p-8 backdrop-blur-sm transition-all duration-300 group shadow-lg"
             >
-              <div className="space-y-6">
+              <div className="space-y-3 sm:space-y-6">
                 {/* Micro Header with Custom Card Icon and Number */}
                 <div className="flex items-center justify-between">
                   {/* Icon Container */}
-                  <div className="h-12 w-12 bg-gold-500/10 group-hover:bg-gold-500/20 rounded-xl flex items-center justify-center border border-gold-400/20 group-hover:border-gold-400/40 transition-all">
+                  <div className="h-9 w-9 sm:h-12 sm:w-12 bg-gold-500/10 group-hover:bg-gold-500/20 rounded-lg sm:rounded-xl flex items-center justify-center border border-gold-400/20 group-hover:border-gold-400/40 transition-all">
                     {getIcon(benefit.id)}
                   </div>
                   
                   {/* Absolute positioning element representing order value */}
-                  <span className="font-mono text-xs sm:text-sm font-semibold text-gold-400/40 opacity-70">
+                  <span className="font-mono text-[9px] sm:text-sm font-semibold text-gold-400/40 opacity-70">
                     Pilar {benefit.number}
                   </span>
                 </div>
-
-                <div className="space-y-3">
-                  <h3 className="text-lg sm:text-xl font-display font-extrabold text-white group-hover:text-gold-300 transition-colors">
+ 
+                <div className="space-y-1.5 sm:space-y-3">
+                  <h3 className="text-xs sm:text-xl font-display font-extrabold text-white group-hover:text-gold-300 transition-colors">
                     {benefit.title}
                   </h3>
-                  <p className="text-zinc-300 text-xs sm:text-sm leading-relaxed font-sans font-light">
+                  <p className="text-zinc-300 text-[10px] sm:text-sm leading-relaxed font-sans font-light">
                     {benefit.description}
                   </p>
                 </div>
               </div>
-
+ 
               {/* Minimal visual completion indicator in gold inside cards */}
-              <div className="h-1 w-12 bg-gradient-to-r from-gold-400 to-transparent rounded-full mt-6 opacity-40 group-hover:opacity-100 group-hover:w-24 transition-all duration-500" />
+              <div className="h-0.5 sm:h-1 w-6 sm:w-12 bg-gradient-to-r from-gold-400 to-transparent rounded-full mt-4 sm:mt-6 opacity-40 group-hover:opacity-100 group-hover:w-12 sm:group-hover:w-24 transition-all duration-500" />
             </motion.div>
           ))}
-
+ 
           {/* Quick Bonus Callout in the last grid slot for asymmetric design beauty */}
           <motion.div
             variants={cardVariants}
-            className="flex flex-col justify-center items-center text-center bg-gradient-to-br from-gold-950/40 to-earth-900/40 border border-dashed border-gold-400/30 rounded-2xl p-6 sm:p-8 backdrop-blur-sm shadow-xl"
+            className="flex flex-col justify-center items-center text-center bg-gradient-to-br from-gold-950/40 to-earth-900/40 border border-dashed border-gold-400/30 rounded-xl sm:rounded-2xl p-4 sm:p-8 backdrop-blur-sm shadow-xl col-span-2 lg:col-span-1"
           >
-            <div className="h-12 w-12 rounded-full bg-gold-400/10 flex items-center justify-center text-gold-400 mb-4 animate-bounce">
+            <div className="h-10 w-10 sm:h-12 sm:w-12 rounded-full bg-gold-400/10 flex items-center justify-center text-gold-400 mb-2 sm:mb-4 animate-bounce text-sm sm:text-base">
               🌟
             </div>
-            <h3 className="text-base font-display font-bold text-white mb-2">Supere Seus Limites</h3>
-            <p className="text-xs text-zinc-400 max-w-[240px] leading-relaxed mb-4">
-              Junte-se a uma tribo focada com mentoria semanal guiada.
+            <h3 className="text-sm sm:text-base font-display font-bold text-white mb-1 sm:mb-2">Supere Seus Limites</h3>
+            <p className="text-[10px] sm:text-xs text-zinc-400 max-w-[180px] sm:max-w-[240px] leading-relaxed mb-3 sm:mb-4">
+              Faça parte de uma comunidade que cresce com propósito.
             </p>
             <a
               href="#checkout"
-              className="px-4 py-2 bg-gradient-to-r from-gold-400 to-gold-500 hover:from-gold-300 hover:to-gold-400 text-earth-950 font-bold font-display text-xs rounded-lg transition-transform hover:scale-105 shadow-inner"
+              className="px-3 py-1.5 sm:px-4 sm:py-2 btn-premium-gold hover-glow-gold font-bold font-display text-[10px] sm:text-xs rounded-lg transition-transform hover:scale-105 shadow-inner"
             >
               Matricule-se Agora
             </a>

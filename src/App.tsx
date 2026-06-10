@@ -242,7 +242,7 @@ export default function App() {
                 </h3>
               </div>
               <p className="text-zinc-500 text-[11px]">
-                Transformando realidades através do comércio digital de afiliados ético e escalável.
+                Direcionamento, estratégia e suporte que você precisa para destravar no digital
               </p>
             </div>
 

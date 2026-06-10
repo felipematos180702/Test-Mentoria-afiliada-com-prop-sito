@@ -70,12 +70,12 @@ export default function CheckoutSection() {
           {/* Core inclusions list mini grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10 max-w-2xl mx-auto text-left">
             {[
-              "Acesso Completo às Videoaulas Práticas",
-              "Planilhas de Planejamento e Roteiros",
-              "Passo a Passo Shopee, Meli & TikTok Shop",
-              "Suporte de Verdade por Segunda a Sábado",
-              "Modelos de Roteiros de Copy Prontos",
-              "Mentoria em Grupo e Atualizações"
+              "Comunidade Exclusiva de alunos",
+              "Estratégias para os maiores Marketplaces",
+              "Treinamentos Semanais e Atualizações Constantes",
+              "Suporte Humanizado e Direcionamento Próximo",
+              "Materiais Práticos e Ferramentas",
+              "Estratégias Avançadas para Escalar Resultados"
             ].map((item, idx) => (
               <div key={idx} className="flex items-center gap-2 text-xs sm:text-sm text-zinc-300">
                 <div className="h-5 w-5 bg-gold-400/10 rounded-full flex items-center justify-center text-gold-400 flex-shrink-0">
@@ -89,7 +89,7 @@ export default function CheckoutSection() {
           {/* Pricing breakdown */}
           <div className="bg-earth-950/70 border border-gold-400/10 p-6 rounded-2xl max-w-xl mx-auto text-center mb-8">
             <p className="text-xs sm:text-sm text-zinc-500 line-through">
-              De R$ 997,00 no preço regular
+              De R$ 397,00 no preço regular
             </p>
             
             <div className="mt-2 text-gold-400">
@@ -97,10 +97,10 @@ export default function CheckoutSection() {
               <div className="flex items-center justify-center gap-1.5 mt-1">
                 <span className="text-lg sm:text-2xl font-light text-zinc-300">12x de</span>
                 <span className="text-4xl sm:text-5xl font-display font-black text-transparent bg-clip-text bg-gradient-to-r from-gold-300 to-gold-100">
-                  R$ 21,78
+                  R$ 27,61
                 </span>
               </div>
-              <p className="text-xs text-zinc-400 mt-2">ou R$ 217,90 à vista no Pix / Boleto (Condição inédita especial)</p>
+              <p className="text-xs text-zinc-400 mt-2">ou R$ 277,00 à vista no Pix / Boleto (Condição inédita especial)</p>
             </div>
 
             {/* Countdown timer for scarcity */}

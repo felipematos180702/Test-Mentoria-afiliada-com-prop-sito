@@ -33,57 +33,66 @@ export interface FAQ {
 export const COURSE_MODULES: CourseModule[] = [
   {
     id: 1,
-    title: "O Despertar do Propósito & Mentalidade Próspera",
-    tag: "Módulo Inicial",
-    description: "Alinhando sua vida e objetivos para estruturar um negócio digital ético e de extremo valor. O segredo para sair do zero absoluto e pensar como um empresário próspero.",
+    title: "Mentalidade, Propósito e Direção",
+    tag: "MÓDULO 01",
+    description: "Desenvolva a mentalidade necessária para construir resultados consistentes, alinhar seus objetivos e iniciar sua jornada no digital com clareza, confiança e visão de longo prazo.",
     image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=800&auto=format&fit=crop",
-    duration: "4 Horas de Conteúdo",
-    lessonsCount: 12
+    duration: "Conteúdo Prático",
+    lessonsCount: 8
   },
   {
     id: 2,
-    title: "Posicionamento Magnético no Digital",
-    tag: "Atração Orgânica",
-    description: "Esqueça correr atrás de clientes. Aprenda a estruturar um perfil que atrai compradores qualificados todos os dias pela sua autoridade e propósito.",
+    title: "Trabalhando com Grandes Marcas",
+    tag: "MÓDULO 02",
+    description: "Aprenda como se posicionar profissionalmente, criar parcerias estratégicas e aproveitar oportunidades com grandes marcas e marketplaces para potencializar seus resultados.",
     image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=800&auto=format&fit=crop",
-    duration: "6 Horas de Conteúdo",
-    lessonsCount: 15
-  },
-  {
-    id: 3,
-    title: "Máquina de Vendas Orgânicas na Shopee",
-    tag: "Marketplaces Gigantes",
-    description: "Como explorar o algoritmo da Shopee para realizar vendas em massa. Estratégias validadas de tráfego orgânico fáceis de aplicar pelo celular.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop",
-    duration: "5 Horas de Conteúdo",
+    duration: "Modelos de Marcas",
     lessonsCount: 10
   },
   {
+    id: 3,
+    title: "Gestão de Tempo e Inteligência Financeira",
+    tag: "MÓDULO 03",
+    description: "Organize sua rotina, aumente sua produtividade e aprenda a administrar seus ganhos para construir uma operação sustentável e lucrativa.",
+    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=800&auto=format&fit=crop",
+    duration: "Gestão & Métricas",
+    lessonsCount: 8
+  },
+  {
     id: 4,
-    title: "Estratégia de Escala no Mercado Livre (Meli)",
-    tag: "Consolidando Resultados",
-    description: "Aprenda a cadastrar, otimizar e escalar suas ofertas no marketplace mais respeitado da América Latina, gerando receita recorrente.",
-    image: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?q=80&w=800&auto=format&fit=crop",
-    duration: "7 Horas de Conteúdo",
-    lessonsCount: 18
+    title: "Inteligência Artificial e Produção sem Aparecer",
+    tag: "MÓDULO 04",
+    description: "Descubra como utilizar ferramentas de Inteligência Artificial para criar conteúdos, automatizar tarefas e gerar resultados mesmo sem precisar mostrar o rosto.",
+    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop",
+    duration: "Automação com IA",
+    lessonsCount: 12
   },
   {
     id: 5,
-    title: "A Revolução do TikTok Shop",
-    tag: "Estratégia Exclusiva",
-    description: "Domine antes de todos a nova mina de ouro digital. Crie vídeos curtos, posicione tendências e transforme visualizações em comissões gordas no piloto automático.",
-    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800&auto=format&fit=crop",
-    duration: "5 Horas de Conteúdo",
+    title: "Escala com Tráfego Pago",
+    tag: "MÓDULO 05",
+    description: "Aprenda a acelerar seus resultados utilizando anúncios estratégicos para alcançar mais pessoas, gerar mais vendas e escalar sua operação de forma inteligente.",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop",
+    duration: "Estratégia de Tráfego",
     lessonsCount: 14
   },
   {
     id: 6,
-    title: "Copywriting Sensorial para Afiliados com Propósito",
-    tag: "Persuasão Ética",
-    description: "Aprenda roteiros e scripts prontos para fechar vendas no um a um de forma natural, gerando conexão profunda e desejo imediato no seu cliente.",
-    image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=800&auto=format&fit=crop",
-    duration: "8 Horas de Conteúdo",
-    lessonsCount: 16
+    title: "Produtos Físicos e Digitais",
+    tag: "MÓDULO 06",
+    description: "Aprenda a trabalhar com diferentes modelos de negócio, diversificando suas fontes de renda através da venda de produtos físicos e digitais.",
+    image: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?q=80&w=800&auto=format&fit=crop",
+    duration: "Diversificação",
+    lessonsCount: 10
+  },
+  {
+    id: 7,
+    title: "Comunidade, Suporte e Crescimento Contínuo",
+    tag: "MÓDULO 07",
+    description: "Tenha acesso a uma comunidade ativa, suporte próximo, encontros ao vivo e atualizações constantes para continuar evoluindo e crescendo no digital com acompanhamento durante sua jornada.",
+    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800&auto=format&fit=crop",
+    duration: "Comunidade AP",
+    lessonsCount: 15
   }
 ];
 
@@ -91,32 +100,32 @@ export const BENEFITS: Benefit[] = [
   {
     id: 1,
     number: "01",
-    title: "Do Absoluto Zero ao Avançado",
-    description: "Você não precisa ter experiência prévia ou diplomas. O treinamento pega você pela mão e ensina os primeiros passos de forma incrivelmente simples e prática."
+    title: "Comece do Absoluto Zero",
+    description: "Você não precisa ter experiência, audiência ou conhecimento técnico. A AP foi estruturada para ajudar qualquer pessoa a iniciar sua jornada no digital com clareza e direção."
   },
   {
     id: 2,
     number: "02",
-    title: "Estratégia Focada em Marketplaces",
-    description: "Aprenda o caminho 100% validado para lucrar de verdade com gigantes de vendas como Shopee, Mercado Livre e a nova febre do TikTok Shop."
+    title: "Liberdade de Tempo e Localização",
+    description: "Construa uma fonte de renda que permita trabalhar de onde estiver, organizando sua rotina de forma mais flexível e alinhada aos seus objetivos de vida."
   },
   {
     id: 3,
     number: "03",
-    title: "Liberdade Geográfica e de Tempo",
-    description: "Monte sua própria rotina de trabalho. Tudo o que você precisa é apenas de um telefone celular conectado à internet para gerenciar suas vendas de qualquer canto do mundo."
+    title: "Estratégias que Geram Resultados",
+    description: "Aprenda métodos práticos e atualizados para atuar no mercado digital, utilizando diferentes oportunidades para construir resultados consistentes."
   },
   {
     id: 4,
     number: "04",
-    title: "Posicionamento e Propósito",
-    description: "Vá muito além de ficar simplesmente copiando e colando links vazios de afiliados. Aprenda a se posicionar no digital de forma consistente, atraindo clientes fiéis e recorrentes."
+    title: "Propósito e Posicionamento",
+    description: "Desenvolva sua presença digital com autenticidade, construindo autoridade, conexão e um negócio alinhado aos seus valores."
   },
   {
     id: 5,
     number: "05",
-    title: "Suporte Dedicado de Verdade",
-    description: "Esqueça de vez aquela clássica sensação de estar sozinho após a compra de um curso. Tenha acesso a um suporte estruturado diretamente com quem tem resultados para acelerar o seu progresso."
+    title: "Comunidade e Suporte Real",
+    description: "Você não estará sozinho nessa jornada. Conte com acompanhamento próximo, suporte para dúvidas e uma comunidade que cresce, compartilha experiências e evolui junto."
   }
 ];
 
@@ -153,19 +162,19 @@ export const TESTIMONIALS: Testimonial[] = [
 export const FAQS: FAQ[] = [
   {
     question: "Preciso aparecer nas redes sociais?",
-    answer: "Não necessariamente! A Mentoria AP ensina estratégias tanto para quem deseja se posicionar como autoridade quanto estratégias de tráfego direto e lojas sem aparecer (dark profiles), operando diretamente nos bastidores."
-  },
-  {
-    question: "Quanto tempo preciso dedicar por dia?",
-    answer: "Com apenas 1 a 2 horas por dia focadas, você já consegue aplicar o método passo a passo e começar a colher os primeiros resultados financeiros no digital."
+    answer: "Não necessariamente. A Mentoria AP ensina estratégias para quem deseja aparecer e também para quem prefere atuar nos bastidores. Você aprenderá métodos sem exposição pessoal e utilizará ferramentas de Inteligência Artificial para criar conteúdos e potencializar seus resultados no digital."
   },
   {
     question: "Funciona mesmo se eu estiver começando do absoluto zero?",
-    answer: "Sim! Todo o método foi desenhado especificamente para quem nunca trabalhou com vendas online antes. Explicamos cada termo técnico de forma simples e direta."
+    answer: "Sim! A Mentoria AP foi desenvolvida para pessoas que estão dando os primeiros passos no digital. Você terá acesso a um método estruturado, aulas passo a passo, suporte para dúvidas e uma comunidade pronta para caminhar com você durante sua jornada."
+  },
+  {
+    question: "Quanto tempo preciso dedicar por dia?",
+    answer: "A mentoria foi pensada para se adaptar à sua rotina. Com dedicação diária e consistência, mesmo que você tenha apenas algumas horas disponíveis, já é possível aplicar as estratégias e evoluir no mercado digital no seu próprio ritmo."
   },
   {
     question: "O suporte é direto com a equipe?",
-    answer: "Sim! Oferecemos um dos suportes mais elogiados do mercado, com acompanhamento de dúvidas em tempo recorde de segunda a sábado para garantir que você nunca fique travado."
+    answer: "Sim! Na Mentoria AP você não fica sozinho após a compra. Oferecemos suporte humanizado através de grupos exclusivos no WhatsApp, separados por níveis para proporcionar um acompanhamento mais eficiente. Você também terá acesso a suporte para dúvidas, uma comunidade ativa e encontros semanais ao vivo para receber direcionamento e acelerar seu desenvolvimento no digital. 🚀"
   },
   {
     question: "Qual a garantia que tenho?",
