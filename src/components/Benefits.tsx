@@ -52,8 +52,8 @@ export default function Benefits() {
         
         {/* Section Heading */}
         <div className="text-center mb-20 max-w-3xl mx-auto">
-          <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-gold-400/10 border border-gold-400/20 text-gold-400 text-xs font-semibold uppercase tracking-widest rounded-full mb-4">
-            <Award className="h-4.5 w-4.5" /> Os Fundamentos Do Sucesso
+          <span className="inline-flex items-center gap-1 sm:gap-1.5 px-2.5 py-0.5 sm:px-3 sm:py-1 bg-gold-400/10 border border-gold-400/20 text-gold-400 text-[10px] sm:text-xs font-semibold uppercase tracking-widest rounded-full mb-3 sm:mb-4">
+            <Award className="h-4 w-4 sm:h-4.5 sm:w-4.5" /> Os Fundamentos Do Sucesso
           </span>
           <h2 className="text-3xl sm:text-4xl font-display font-extrabold text-white tracking-tight mb-4">
             5 Pilares da <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold-300 via-gold-400 to-gold-200">Mentoria AP</span>

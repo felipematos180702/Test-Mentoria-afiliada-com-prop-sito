@@ -26,13 +26,13 @@ export default function ModulesCarousel() {
         
         {/* Title Block */}
         <div className="text-center mb-16">
-          <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-gold-400/10 border border-gold-400/20 text-gold-400 text-xs font-semibold uppercase tracking-widest rounded-full mb-4">
-            <BookOpen className="h-4.5 w-4.5" /> Módulos exclusivos
+          <span className="inline-flex items-center gap-1 sm:gap-1.5 px-2.5 py-0.5 sm:px-3 sm:py-1 bg-gold-400/10 border border-gold-400/20 text-gold-400 text-[10px] sm:text-xs font-semibold uppercase tracking-widest rounded-full mb-3 sm:mb-4">
+            <BookOpen className="h-4 w-4 sm:h-4.5 sm:w-4.5" /> Módulos exclusivos
           </span>
-          <h2 className="text-3xl sm:text-4xl font-display font-extrabold text-white tracking-tight mb-4">
+          <h2 className="text-2xl sm:text-4xl font-display font-extrabold text-white tracking-tight mb-4">
             O caminho que vai te levar <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold-300 via-gold-400 to-gold-200">do zero aos seus primeiros resultados</span>
           </h2>
-          <p className="text-zinc-300 max-w-2xl mx-auto text-sm sm:text-base leading-relaxed">
+          <p className="text-zinc-300 max-w-2xl mx-auto text-xs sm:text-base leading-relaxed">
             Você não precisa descobrir tudo sozinho. A Mentoria AP foi estruturada em uma sequência prática para ajudar você a sair do zero, desenvolver as habilidades certas e construir sua presença e suas vendas nos maiores marketplaces do Brasil.
           </p>
         </div>
@@ -40,7 +40,7 @@ export default function ModulesCarousel() {
         {/* Carousel Container */}
         <div className="relative max-w-4xl mx-auto">
           {/* Main Slider Window */}
-          <div className="bg-earth-950/80 border border-gold-400/10 rounded-3xl p-6 sm:p-10 shadow-2xl relative overflow-hidden">
+          <div className="bg-earth-950/80 border border-gold-400/10 rounded-2xl sm:rounded-3xl p-4 sm:p-10 shadow-2xl relative overflow-hidden">
             
             <AnimatePresence mode="wait">
               <motion.div
@@ -79,21 +79,16 @@ export default function ModulesCarousel() {
                     {currentModule.tag}
                   </span>
                   
-                  <h3 className="text-xl sm:text-2xl font-display font-bold text-white leading-tight">
+                  <h3 className="text-lg sm:text-2xl font-display font-bold text-white leading-tight">
                     {currentModule.title}
                   </h3>
                   
-                  <p className="text-zinc-300 text-sm leading-relaxed font-sans">
+                  <p className="text-zinc-300 text-xs sm:text-sm leading-relaxed font-sans">
                     {currentModule.description}
                   </p>
                   
                   {/* Metadata Indicators bar */}
                   <div className="flex flex-wrap items-center gap-4 pt-4 border-t border-gold-400/10 text-xs text-zinc-400">
-                    <div className="flex items-center gap-1.5 bg-earth-900/50 px-3 py-1.5 border border-gold-400/5 rounded-lg">
-                      <Layers className="h-4 w-4 text-gold-400" />
-                      <span className="font-medium text-white">{currentModule.lessonsCount} Videoaulas Práticas</span>
-                    </div>
-
                     <div className="flex items-center gap-1.5 bg-earth-900/50 px-3 py-1.5 border border-gold-400/5 rounded-lg">
                       <Clock className="h-4 w-4 text-gold-400" />
                       <span className="font-medium text-white">{currentModule.duration}</span>

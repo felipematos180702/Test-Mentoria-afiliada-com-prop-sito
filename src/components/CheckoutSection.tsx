@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "motion/react";
-import { ShieldCheck, Flame, CreditCard, Lock, Sparkles, Check, Hourglass } from "lucide-react";
+import { ShieldCheck, CreditCard, Lock, Sparkles, Check, Hourglass } from "lucide-react";
 
 export default function CheckoutSection() {
   // Scarcity countdown timer setup (15 minutes looping for demo or fixed countdown)
@@ -32,14 +32,11 @@ export default function CheckoutSection() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="bg-red-950/20 border border-red-500/20 rounded-2xl p-4 sm:p-6 mb-12 flex flex-col sm:flex-row items-center gap-4 text-center sm:text-left"
+          className="bg-red-950/20 border border-red-500/20 rounded-2xl p-4 sm:p-6 mb-8 sm:mb-12 text-center sm:text-left"
         >
-          <div className="h-12 w-12 bg-red-500/10 rounded-full flex items-center justify-center flex-shrink-0 text-red-400">
-            <Flame className="h-6 w-6 animate-pulse" />
-          </div>
           <div className="space-y-1">
-            <h4 className="text-red-400 font-bold uppercase tracking-wider text-xs">⚠️ ATENÇÃO: Oferta Exclusiva</h4>
-            <p className="text-zinc-300 text-xs sm:text-sm leading-relaxed">
+            <h4 className="text-red-400 font-bold uppercase tracking-wider text-[10px] sm:text-xs">⚠️ ATENÇÃO: Oferta Exclusiva</h4>
+            <p className="text-zinc-300 text-[10px] sm:text-sm leading-relaxed">
               Os bônus exclusivos e a condição especial para a nova turma da <strong className="text-white font-semibold">Mentoria AP</strong> estão disponíveis por tempo limitado. Garanta sua vaga com desconto especial antes da virada do próximo lote!
             </p>
           </div>
@@ -51,18 +48,18 @@ export default function CheckoutSection() {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ type: "spring", stiffness: 100 }}
-          className="bg-gradient-to-br from-earth-900/90 to-earth-950/90 border-2 border-gold-400/40 rounded-3xl p-6 sm:p-12 shadow-2xl relative overflow-hidden"
+          className="bg-gradient-to-br from-earth-900/90 to-earth-950/90 border-2 border-gold-400/40 rounded-2xl sm:rounded-3xl p-4 sm:p-12 shadow-2xl relative overflow-visible"
         >
           {/* Top highlight ribbons or tags - placed inside the card view safely to prevent overflow clipping */}
-          <div className="absolute top-5 left-1/2 -translate-x-1/2 bg-gradient-to-r from-gold-400 to-gold-600 text-earth-950 text-[10px] sm:text-xs font-black px-6 py-1.5 rounded-full uppercase tracking-widest shadow-lg flex items-center gap-1 z-10 whitespace-nowrap">
-            <Sparkles className="h-3 w-3 fill-earth-950" /> Vagas Limitadas
+          <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-gradient-to-r from-gold-400 to-gold-600 text-earth-950 text-[10px] sm:text-xs font-black px-5 py-1 sm:px-6 sm:py-1.5 rounded-full uppercase tracking-widest shadow-lg flex items-center gap-1 z-10 whitespace-nowrap">
+            <Sparkles className="h-2.5 w-2.5 sm:h-3 sm:w-3 fill-earth-950" /> Vagas Limitadas
           </div>
 
-          <div className="text-center mt-8 mb-8">
-            <h3 className="text-2xl sm:text-3xl font-display font-extrabold text-white">
+          <div className="text-center mt-6 mb-6 sm:mt-8 sm:mb-8">
+            <h3 className="text-xl sm:text-3xl font-display font-extrabold text-white">
               Sua Transformação Começa Hoje
             </h3>
-            <p className="text-zinc-400 text-xs sm:text-sm mt-2">
+            <p className="text-zinc-400 text-[10px] sm:text-sm mt-1.5 sm:mt-2">
               Tenha acesso imediato a todo o método da Mentoria AP + Bônus Especiais abaixo.
             </p>
           </div>
@@ -78,8 +75,8 @@ export default function CheckoutSection() {
               "Estratégias Avançadas para Escalar Resultados"
             ].map((item, idx) => (
               <div key={idx} className="flex items-center gap-2 text-xs sm:text-sm text-zinc-300">
-                <div className="h-5 w-5 bg-gold-400/10 rounded-full flex items-center justify-center text-gold-400 flex-shrink-0">
-                  <Check className="h-3.5 w-3.5 stroke-[3]" />
+                <div className="h-4.5 w-4.5 sm:h-5 sm:w-5 bg-gold-400/10 rounded-full flex items-center justify-center text-gold-400 flex-shrink-0">
+                  <Check className="h-3 w-3 sm:h-3.5 sm:w-3.5 stroke-[3]" />
                 </div>
                 <span>{item}</span>
               </div>
@@ -119,7 +116,7 @@ export default function CheckoutSection() {
               rel="noopener noreferrer"
               animate={{ scale: [1, 1.02, 1] }}
               transition={{ repeat: Infinity, duration: 1.8, ease: "easeInOut" }}
-              className="inline-block w-full max-w-xl py-4 sm:py-5 px-8 sm:px-12 btn-premium-gold hover-glow-gold text-base sm:text-lg font-black font-display tracking-widest rounded-2xl shadow-2xl transition-all duration-300"
+              className="inline-block w-full max-w-xl py-3 sm:py-5 px-5 sm:px-12 btn-premium-gold hover-glow-gold text-xs sm:text-lg font-black font-display tracking-widest rounded-xl sm:rounded-2xl shadow-2xl transition-all duration-300"
             >
               QUERO GARANTIR MINHA VAGA COM DESCONTO
             </motion.a>

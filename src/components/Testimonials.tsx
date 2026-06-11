@@ -27,13 +27,13 @@ export default function Testimonials() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
         <div className="text-center mb-16">
-          <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-gold-400/10 border border-gold-400/20 text-gold-400 text-xs font-semibold uppercase tracking-widest rounded-full mb-4">
-            <MessageCircle className="h-4.5 w-4.5" /> Depoimentos Reais
+          <span className="inline-flex items-center gap-1 sm:gap-1.5 px-2.5 py-0.5 sm:px-3 sm:py-1 bg-gold-400/10 border border-gold-400/20 text-gold-400 text-[10px] sm:text-xs font-semibold uppercase tracking-widest rounded-full mb-3 sm:mb-4">
+            <MessageCircle className="h-4 w-4 sm:h-4.5 sm:w-4.5" /> Depoimentos Reais
           </span>
-          <h2 className="text-3xl sm:text-4xl font-display font-extrabold text-white tracking-tight mb-4">
+          <h2 className="text-2xl sm:text-4xl font-display font-extrabold text-white tracking-tight mb-4">
             Mais de <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold-300 via-gold-400 to-gold-200">1.200 Pessoas</span> Já Decidiram Começar
           </h2>
-          <p className="text-zinc-300 max-w-2xl mx-auto text-sm sm:text-base leading-relaxed">
+          <p className="text-zinc-300 max-w-2xl mx-auto text-xs sm:text-base leading-relaxed">
             Conheça histórias reais de alunos que encontraram no digital uma oportunidade para gerar renda, conquistar mais liberdade e transformar suas vidas.
           </p>
         </div>

@@ -3,6 +3,7 @@ import { Menu, X, Instagram, BookOpen, User, Award, HelpCircle, MessageSquare, S
 
 // Components
 import Hero from "./components/Hero";
+import PainPoints from "./components/PainPoints";
 import About from "./components/About";
 import ModulesCarousel from "./components/ModulesCarousel";
 import Benefits from "./components/Benefits";
@@ -96,16 +97,6 @@ export default function App() {
               </a>
             ))}
           </nav>
-
-          {/* Header Action Button */}
-          <div className="hidden md:block">
-            <button
-              onClick={handleScrollDirectToCheckout}
-              className="px-5 py-2.5 text-xs font-black font-display btn-premium-gold hover-glow-gold rounded-lg shadow-xl cursor-pointer"
-            >
-              GARANTIR MINHA VAGA
-            </button>
-          </div>
 
           {/* Mobile Burger Button */}
           <button
@@ -209,6 +200,9 @@ export default function App() {
             </div>
           </div>
         </div>
+
+        {/* PAIN POINTS SECTION / DIAGNOSTICO DO MERCADO */}
+        <PainPoints />
 
         {/* ISABELLY MARIANO BIO SECTION */}
         <About />

@@ -18,8 +18,8 @@ export default function FAQAccordion() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 relative z-10">
         <div className="text-center mb-16">
-          <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-gold-400/10 border border-gold-400/20 text-gold-400 text-xs font-semibold uppercase tracking-widest rounded-full mb-4">
-            <MessageCircleQuestion className="h-4.5 w-4.5" /> Dúvidas Frequentes
+          <span className="inline-flex items-center gap-1 sm:gap-1.5 px-2.5 py-0.5 sm:px-3 sm:py-1 bg-gold-400/10 border border-gold-400/20 text-gold-400 text-[10px] sm:text-xs font-semibold uppercase tracking-widest rounded-full mb-3 sm:mb-4">
+            <MessageCircleQuestion className="h-4 w-4 sm:h-4.5 sm:w-4.5" /> Dúvidas Frequentes
           </span>
           <h2 className="text-3xl sm:text-4xl font-display font-extrabold text-white tracking-tight mb-4">
             Ainda Tem Alguma <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold-300 via-gold-400 to-gold-200">Pergunta?</span>
@@ -39,18 +39,18 @@ export default function FAQAccordion() {
               >
                 <button
                   onClick={() => toggleFAQ(idx)}
-                  className="w-full flex items-center justify-between p-5 text-left text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-gold-400/50"
+                  className="w-full flex items-center justify-between p-4 sm:p-5 text-left text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-gold-400/50"
                   aria-expanded={isOpen}
                 >
-                  <span className="font-semibold text-sm sm:text-base pr-4 hover:text-gold-300 transition-colors">
+                  <span className="font-semibold text-xs sm:text-base pr-4 hover:text-gold-300 transition-colors">
                     {faq.question}
                   </span>
                   <div
-                    className={`flex-shrink-0 w-8 h-8 rounded-full border border-gold-400/10 flex items-center justify-center text-gold-400 bg-earth-950/50 transition-transform duration-300 ${
+                    className={`flex-shrink-0 w-6.5 h-6.5 sm:w-8 sm:h-8 rounded-full border border-gold-400/10 flex items-center justify-center text-gold-400 bg-earth-950/50 transition-transform duration-300 ${
                       isOpen ? "rotate-180 bg-gold-500/10 text-gold-300 border-gold-400/30" : ""
                     }`}
                   >
-                    <ChevronDown className="h-4 w-4" />
+                    <ChevronDown className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
                   </div>
                 </button>
 
