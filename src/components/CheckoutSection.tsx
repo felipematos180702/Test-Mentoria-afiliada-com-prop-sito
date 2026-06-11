@@ -110,29 +110,27 @@ export default function CheckoutSection() {
 
           {/* Pulsing high conversion checkout button */}
           <div className="text-center space-y-4">
-            <motion.a
+            <a
               href="https://pay.kiwify.com.br" // Placeholder checkout link
               target="_blank"
               rel="noopener noreferrer"
-              animate={{ scale: [1, 1.02, 1] }}
-              transition={{ repeat: Infinity, duration: 1.8, ease: "easeInOut" }}
-              className="inline-block w-full max-w-xl py-3 sm:py-5 px-5 sm:px-12 btn-premium-gold hover-glow-gold text-xs sm:text-lg font-black font-display tracking-widest rounded-xl sm:rounded-2xl shadow-2xl transition-all duration-300"
+              className="inline-block w-full max-w-xl py-3 sm:py-5 px-5 sm:px-12 btn-premium-green text-xs sm:text-lg font-black font-display tracking-widest rounded-xl sm:rounded-2xl shadow-2xl transition-all duration-300 transform hover:scale-[1.02] active:scale-[0.98]"
             >
               QUERO GARANTIR MINHA VAGA COM DESCONTO
-            </motion.a>
+            </a>
 
             {/* Payment security details/locks */}
             <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 text-zinc-500 text-[10px] sm:text-xs">
               <span className="flex items-center gap-1">
-                <Lock className="h-3.5 w-3.5 text-gold-400/60" /> Compra 100% Segura
+                <Lock className="h-3.5 w-3.5 text-emerald-400" /> Compra 100% Segura
               </span>
               <span className="h-3 w-px bg-zinc-800 hidden sm:inline" />
               <span className="flex items-center gap-1">
-                <ShieldCheck className="h-3.5 w-3.5 text-gold-400/60" /> 7 Dias de Garantia
+                <ShieldCheck className="h-3.5 w-3.5 text-emerald-400" /> 7 Dias de Garantia
               </span>
               <span className="h-3 w-px bg-zinc-800 hidden sm:inline" />
               <span className="flex items-center gap-1">
-                <CreditCard className="h-3.5 w-3.5 text-gold-400/60" /> Acesso Imediato
+                <CreditCard className="h-3.5 w-3.5 text-emerald-400" /> Acesso Imediato
               </span>
             </div>
           </div>
@@ -140,8 +138,8 @@ export default function CheckoutSection() {
           {/* Guarantee stamp card */}
           <div className="mt-12 pt-8 border-t border-gold-400/10 grid grid-cols-1 sm:grid-cols-12 gap-6 items-center">
             <div className="sm:col-span-3 flex justify-center text-center">
-              <div className="h-20 w-20 rounded-full border-2 border-gold-400/40 flex items-center justify-center p-1 bg-earth-950 shadow-inner">
-                <div className="h-full w-full rounded-full bg-gold-400/10 border border-dashed border-gold-400/40 flex flex-col items-center justify-center text-gold-400 select-none">
+              <div className="h-20 w-20 rounded-full border-2 border-emerald-400/40 flex items-center justify-center p-1 bg-earth-950 shadow-inner">
+                <div className="h-full w-full rounded-full bg-emerald-400/10 border border-dashed border-emerald-400/40 flex flex-col items-center justify-center text-emerald-400 select-none">
                   <span className="text-xl font-bold font-display leading-none">7</span>
                   <span className="text-[8px] font-bold uppercase tracking-widest leading-none">Dias</span>
                 </div>

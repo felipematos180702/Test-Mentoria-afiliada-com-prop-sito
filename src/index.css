@@ -98,6 +98,27 @@
   transform: scale(0.98) translateY(0);
 }
 
+/* Premium Green Button styling for ultra-high checkout conversions */
+.btn-premium-green {
+  background: linear-gradient(135deg, #16a34a 0%, #15803d 100%);
+  color: #ffffff;
+  font-weight: 800;
+  border: 1px solid #22c55e;
+  box-shadow: 0 4px 12px rgba(22, 163, 74, 0.2);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.btn-premium-green:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(22, 163, 74, 0.35);
+  background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+}
+
+.btn-premium-green:active {
+  transform: translateY(1px);
+}
+
 /* Highly responsive gold text accent color for clickable high conversion navigation highlights using Goldenrod (#DAA520) */
 .text-accent-vibrant {
   color: #DAA520;
