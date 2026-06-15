@@ -212,11 +212,11 @@ export default function App() {
         {/* DEPOIMENTOS DE ALUNOS */}
         <Testimonials />
 
-        {/* ACCORDION FAQ Segment */}
-        <FAQAccordion />
-
         {/* HIGH-CONVERTING CHECKOUT SECTION */}
         <CheckoutSection />
+
+        {/* ACCORDION FAQ Segment */}
+        <FAQAccordion />
 
       </main>
 
