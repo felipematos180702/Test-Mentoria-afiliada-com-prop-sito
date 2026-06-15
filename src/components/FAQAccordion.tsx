@@ -73,20 +73,7 @@ export default function FAQAccordion() {
           })}
         </div>
 
-        {/* Dynamic Trust bar under FAQ */}
-        <div className="mt-12 text-center">
-          <p className="text-xs text-zinc-500">
-            Ainda com dúvidas? Fale com nosso suporte exclusivo no WhatsApp para atendimento humanizado.{" "}
-            <a
-              href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Gostaria%20de%20tirar%20d%C3%BAvidas%20sobre%20a%20Mentoria%20AP."
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gold-400 font-semibold underline hover:text-gold-300 transition-colors"
-            >
-              Clique para falar conosco
-            </a>
-          </p>
-        </div>
+
       </div>
     </section>
   );
