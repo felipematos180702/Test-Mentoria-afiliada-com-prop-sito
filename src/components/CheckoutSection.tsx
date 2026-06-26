@@ -111,7 +111,7 @@ export default function CheckoutSection() {
           {/* Pulsing high conversion checkout button */}
           <div className="text-center space-y-4">
             <a
-              href="https://pay.kiwify.com.br" // Placeholder checkout link
+              href="https://pay.kiwify.com.br/tYMo7yC"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block w-full max-w-xl py-3 sm:py-5 px-5 sm:px-12 btn-premium-green text-xs sm:text-lg font-black font-display tracking-widest rounded-xl sm:rounded-2xl shadow-2xl transition-all duration-300 transform hover:scale-[1.02] active:scale-[0.98]"

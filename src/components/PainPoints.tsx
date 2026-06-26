@@ -1,28 +1,38 @@
 import React from "react";
 import { motion } from "motion/react";
-import { Compass, UserX, AlertTriangle, Coins, Sparkles, Flame } from "lucide-react";
+import { Rocket, ShoppingBag, Package, EyeOff, Users, RefreshCw, Flame, Sparkles } from "lucide-react";
 
 export default function PainPoints() {
-  const painPoints = [
+  const learningOutcomes = [
     {
-      icon: Compass,
-      title: "Paralisia por excesso de informação",
-      description: "Você assiste a dezenas de vídeos teóricos, consome conteúdos gratuitos desordenados e acumula cursos obsoletos, mas continua no mesmo lugar por falta de um passo a passo simples.",
+      icon: Rocket,
+      title: "Comece do zero, mesmo sem experiência",
+      description: "Mesmo que você nunca tenha vendido nada na internet ou nem saiba como funciona o mercado digital, você terá um passo a passo completo para começar com segurança e fazer suas primeiras vendas.",
     },
     {
-      icon: UserX,
-      title: "Solidão absoluta e suporte inútil",
-      description: "Travar em uma configuração simples do TikTok ou da Shopee é péssimo. Sem um suporte humano e ativo que te mostre onde está errando, a desistência se torna quase inevitável.",
+      icon: ShoppingBag,
+      title: "Venda nas maiores plataformas do Brasil",
+      description: "Aprenda a vender em plataformas como Shopee, TikTok Shop, Mercado Livre, Amazon, Magalu, Shein e outras, utilizando estratégias que realmente funcionam.",
     },
     {
-      icon: Coins,
-      title: "Medo crônico de gastar o que não tem",
-      description: "Dizem por aí que você precisa investir milhares de reais em anúncios recomendados por falsos gurus. No final, você queima dinheiro sem ver um centavo de comissão voltar.",
+      icon: Package,
+      title: "Venda sem precisar de estoque",
+      description: "Você não precisa comprar produtos, investir em mercadorias ou ter estoque em casa. Aprenda a trabalhar como afiliado promovendo produtos de grandes marcas.",
     },
     {
-      icon: AlertTriangle,
-      title: "Brigar por preço com produtos ruins",
-      description: "Vender o que todo mundo oferece satura seu mercado e aniquila sua margem de lucro. Sem os produtos certos e validados pela demanda, você é apenas mais um mandando links de spam.",
+      icon: EyeOff,
+      title: "Venda mesmo sem aparecer",
+      description: "Se você tem vergonha de gravar vídeos ou não quer expor sua imagem, a mentoria ensina estratégias para vender utilizando Inteligência Artificial, conteúdos estratégicos e outras formas de criar autoridade sem precisar mostrar o rosto.",
+    },
+    {
+      icon: Users,
+      title: "Suporte e comunidade",
+      description: "Você não estará sozinho durante a sua jornada. Conte com suporte humanizado, encontros ao vivo e uma comunidade que incentiva, compartilha experiências e cresce junto.",
+    },
+    {
+      icon: RefreshCw,
+      title: "Materiais e atualizações constantes",
+      description: "O mercado digital está sempre mudando, e a mentoria acompanha essa evolução. Você terá acesso a novas aulas, materiais, checklists, templates, ferramentas e atualizações para continuar evoluindo ao longo da sua jornada.",
     },
   ];
 
@@ -59,49 +69,55 @@ export default function PainPoints() {
   return (
     <section className="py-20 bg-earth-950 text-white relative overflow-hidden" id="diagnostico">
       {/* Background glow effects */}
-      <div className="absolute right-1/2 translate-x-1/2 bottom-0 w-[400px] h-[400px] bg-red-950/10 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute right-1/2 translate-x-1/2 bottom-0 w-[400px] h-[400px] bg-gold-900/10 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute left-0 top-1/4 w-[300px] h-[300px] bg-gold-950/5 rounded-full blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
         
         {/* CRO Copywriting Header */}
-        <div className="text-center mb-14 max-w-3xl mx-auto">
-          <span className="inline-flex items-center gap-1 sm:gap-1.5 px-2.5 py-0.5 sm:px-3 sm:py-1 bg-red-500/10 border border-red-500/20 text-red-400 text-[10px] sm:text-xs font-semibold uppercase tracking-widest rounded-full mb-3 sm:mb-4">
-            <Flame className="h-4 w-4 sm:h-4.5 sm:w-4.5 animate-pulse" /> Se identificou com esses problemas?
+        <div className="text-center mb-16 max-w-3xl mx-auto">
+          <span className="inline-flex items-center gap-1 sm:gap-1.5 px-2.5 py-0.5 sm:px-3 sm:py-1 bg-gold-400/10 border border-gold-400/20 text-gold-400 text-[10px] sm:text-xs font-semibold uppercase tracking-widest rounded-full mb-3 sm:mb-4">
+            <Flame className="h-4 w-4 sm:h-4.5 sm:w-4.5 animate-pulse text-gold-400" /> O Método Definitivo
           </span>
           <h2 className="text-2xl sm:text-4xl font-display font-extrabold text-white tracking-tight mb-4 leading-normal">
-            Por que <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-orange-400 to-amber-300">95% das pessoas desistem</span> de viver do digital antes da primeira venda?
+            Pra você que deseja viver do digital: O que você vai ter na <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold-300 via-gold-400 to-gold-200">Mentoria AP?</span>
           </h2>
-          <p className="text-zinc-400 text-xs sm:text-base leading-relaxed">
-            Se você já tentou de tudo e ainda não conseguiu os resultados que deseja, acalme-se. A culpa não é sua. O mercado tradicional te ensina a ser um spammer ineficiente, e não a construir um negócio legítimo.
+          <p className="text-zinc-300 text-xs sm:text-base leading-relaxed">
+            Se o seu objetivo é trabalhar de casa, conquistar uma renda através da internet e ter mais liberdade utilizando apenas o celular, a Mentoria AP foi desenvolvida para guiar você em cada etapa dessa jornada, mesmo que hoje você não tenha experiência no mercado digital.
           </p>
         </div>
 
-        {/* Pain Points Grid - Responsive for Mobile with fine margins and optimized fonts */}
+        {/* Learning Outcomes Grid  */}
         <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: true, margin: "-100px" }}
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mb-12"
+           variants={containerVariants}
+           initial="hidden"
+           whileInView="show"
+           viewport={{ once: true, margin: "-100px" }}
+           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-12"
         >
-          {painPoints.map((item, idx) => {
+          {learningOutcomes.map((item, idx) => {
             const IconComponent = item.icon;
             return (
               <motion.div
                 key={idx}
                 variants={cardVariants}
                 whileHover={{ y: -3 }}
-                className="bg-earth-900/30 border border-red-500/10 hover:border-red-500/30 rounded-xl p-4 sm:p-6 transition-all duration-300 shadow-md flex flex-col justify-between"
+                className="bg-earth-900/30 border border-gold-400/10 hover:border-gold-400/30 rounded-xl p-5 sm:p-6 transition-all duration-300 shadow-md flex flex-col justify-start"
               >
-                <div className="space-y-3">
-                  <div className="h-8 w-8 sm:h-10 sm:w-10 rounded-lg bg-red-500/5 border border-red-500/10 flex items-center justify-center text-red-400 flex-shrink-0">
-                    <IconComponent className="h-4 w-4 sm:h-5 sm:w-5" />
+                <div className="space-y-4">
+                  <div className="h-10 w-10 sm:h-12 sm:w-12 rounded-lg bg-gold-400/10 border border-gold-400/20 flex items-center justify-center text-gold-400 flex-shrink-0">
+                    <IconComponent className="h-5 w-5 sm:h-6 sm:w-6" />
                   </div>
-                  <h3 className="text-sm sm:text-base font-display font-bold text-zinc-100">
-                    {item.title}
-                  </h3>
-                  <p className="text-[11px] sm:text-xs text-zinc-400 leading-relaxed font-sans font-light">
+                  
+                  <div>
+                    <h3 className="text-[14px] sm:text-[16px] font-display font-bold text-zinc-100 mb-1 leading-tight">
+                      {item.title}
+                    </h3>
+                  </div>
+                  
+                  <div className="h-px w-8 bg-gold-400/20" />
+
+                  <p className="text-[11px] sm:text-xs text-zinc-300 leading-relaxed font-sans font-light">
                     {item.description}
                   </p>
                 </div>
@@ -121,10 +137,10 @@ export default function PainPoints() {
           <div className="absolute top-0 right-0 w-32 h-32 bg-gold-400/[0.02] rounded-full blur-2xl pointer-events-none" />
           
           <h4 className="text-xs sm:text-lg font-bold text-white mb-2 font-display">
-            Existe um método mais inteligente para prosperar pelo celular
+            A solução completa para destravar o seu digital
           </h4>
           <p className="text-[11px] sm:text-sm text-zinc-300 max-w-2xl mx-auto mb-5 leading-relaxed font-light">
-            Na <strong className="text-gold-300 font-semibold">Mentoria Afiliada com Propósito</strong>, nós eliminamos o desperdício técnico e o tráfego pago arriscado da sua rota. Desenvolvemos seu processo de vendas passo a passo nos maiores sites integrados ao TikTok e Shopee com suporte constante.
+            Seja parceiro das maiores empresas do Brasil, crie uma esteira inteligente de vendas e faça do seu celular a sua ferramenta definitiva de liberdade financeira. Tudo com auxílio da Inteligência Artificial.
           </p>
           
           <button

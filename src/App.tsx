@@ -10,6 +10,7 @@ import Testimonials from "./components/Testimonials";
 import FAQAccordion from "./components/FAQAccordion";
 import CheckoutSection from "./components/CheckoutSection";
 import NotificationToast from "./components/NotificationToast";
+import PainPoints from "./components/PainPoints";
 
 export default function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -199,6 +200,9 @@ export default function App() {
             </div>
           </div>
         </div>
+
+        {/* LEARNING OUTCOMES / PAIN POINTS */}
+        <PainPoints />
 
         {/* ISABELLY MARIANO BIO SECTION */}
         <About />

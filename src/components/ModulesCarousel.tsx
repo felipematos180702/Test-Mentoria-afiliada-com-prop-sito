@@ -2,17 +2,21 @@ import { motion } from "motion/react";
 import { BookOpen } from "lucide-react";
 
 const MODULE_IMAGES = [
-  "https://lh3.googleusercontent.com/d/1TkqwPXx3grEk2JCWVSID7l9rliZPf3GC",
-  "https://lh3.googleusercontent.com/d/1W9gnwlsK5PzhXgKQyzA0MHCzKw4xJWs1",
-  "https://lh3.googleusercontent.com/d/1DYi4EWAOm4Wo5s5AQs8k2dwl-mdNYHcC",
-  "https://lh3.googleusercontent.com/d/16Jl9_NRXlnfzPoIV_exISE7AbIAHiMpp",
-  "https://lh3.googleusercontent.com/d/1dCE1CwQ3zqDW8DKq99gW6ys2LzMQ4n-r",
-  "https://lh3.googleusercontent.com/d/1W4P_m-oXUocIF06_5fvbKLricAy7Sm6D",
-  "https://lh3.googleusercontent.com/d/1PhEF3pEOCEyEUJ1uVARfZMA8LSz35nTK",
-  "https://lh3.googleusercontent.com/d/10oV857cf1WxaPd-eKHEly1GSXcgSYswd",
-  "https://lh3.googleusercontent.com/d/1ITU9-H--0Mf5FHS3TbdcV0xr7hGO-2Y0",
-  "https://lh3.googleusercontent.com/d/1uSnoFyLi_v-9ZxyYQqT5lG59vZqS0yoY",
-  "https://lh3.googleusercontent.com/d/1eloUX8jt__ZE4z1XiQDpGcSrUiSMSVTn"
+  "https://lh3.googleusercontent.com/d/1Ksg8NcAV3XOifdZKB__kFUDrVo8TFTwf",
+  "https://lh3.googleusercontent.com/d/1mAqRk2FqiUnvWdEjcj_v_Bi0BvhZOqPP",
+  "https://lh3.googleusercontent.com/d/1F5UmAnJhf5S4tO8QXTkU1XzXa5d_q66f",
+  "https://lh3.googleusercontent.com/d/1Wqg-iTzyFSD5igMlPUuHbzRAclsz8THz",
+  "https://lh3.googleusercontent.com/d/1hXUykghMI3rGvJLlhd3KSGNtswQwA1tp",
+  "https://lh3.googleusercontent.com/d/1vVeXsBSGOoytqNIAli5uwA5_XoV5hqg4",
+  "https://lh3.googleusercontent.com/d/1r4V2TMmIKBe-_gvsLb2EupL5i6wcTZIj",
+  "https://lh3.googleusercontent.com/d/1sYYRSM8dbcKKy8yOUF-17Jeo_vGH81Rb",
+  "https://lh3.googleusercontent.com/d/1nUSBzwpkVFidY1TVWx-f_eoBPoiNY6vJ",
+  "https://lh3.googleusercontent.com/d/1sZ9s8l663H7Om00rhl_ZMwiYYbdLPpYi",
+  "https://lh3.googleusercontent.com/d/1daVUlxZIcXr3aduAbK4xfkACY_WF6XkB",
+  "https://lh3.googleusercontent.com/d/1tGLvn_tJhh5v9aVosYebzXTw7tvXBOJK",
+  "https://lh3.googleusercontent.com/d/1lSw1BCWEmx5_SkTap8CAjLbgjKflgEuq",
+  "https://lh3.googleusercontent.com/d/1u9ahrvbgiiuI9gJehslxpFglMyfYUI2m",
+  "https://lh3.googleusercontent.com/d/18YPzXtKy143YVr9Rl_T7Hrtjqer-xUwy"
 ];
 
 export default function ModulesCarousel() {
