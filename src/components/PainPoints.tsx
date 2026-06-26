@@ -93,7 +93,7 @@ export default function PainPoints() {
            initial="hidden"
            whileInView="show"
            viewport={{ once: true, margin: "-100px" }}
-           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-12"
+           className="grid grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6 mb-12"
         >
           {learningOutcomes.map((item, idx) => {
             const IconComponent = item.icon;
@@ -102,22 +102,22 @@ export default function PainPoints() {
                 key={idx}
                 variants={cardVariants}
                 whileHover={{ y: -3 }}
-                className="bg-earth-900/30 border border-gold-400/10 hover:border-gold-400/30 rounded-xl p-5 sm:p-6 transition-all duration-300 shadow-md flex flex-col justify-start"
+                className="bg-earth-900/30 border border-gold-400/10 hover:border-gold-400/30 rounded-xl p-3 sm:p-6 transition-all duration-300 shadow-md flex flex-col justify-start"
               >
-                <div className="space-y-4">
-                  <div className="h-10 w-10 sm:h-12 sm:w-12 rounded-lg bg-gold-400/10 border border-gold-400/20 flex items-center justify-center text-gold-400 flex-shrink-0">
-                    <IconComponent className="h-5 w-5 sm:h-6 sm:w-6" />
+                <div className="space-y-3 sm:space-y-4">
+                  <div className="h-8 w-8 sm:h-12 sm:w-12 rounded-lg bg-gold-400/10 border border-gold-400/20 flex items-center justify-center text-gold-400 flex-shrink-0">
+                    <IconComponent className="h-4 w-4 sm:h-6 sm:w-6" />
                   </div>
                   
                   <div>
-                    <h3 className="text-[14px] sm:text-[16px] font-display font-bold text-zinc-100 mb-1 leading-tight">
+                    <h3 className="text-xs sm:text-[16px] font-display font-bold text-zinc-100 mb-1 leading-tight">
                       {item.title}
                     </h3>
                   </div>
                   
-                  <div className="h-px w-8 bg-gold-400/20" />
+                  <div className="h-px w-6 sm:h-px sm:w-8 bg-gold-400/20" />
 
-                  <p className="text-[11px] sm:text-xs text-zinc-300 leading-relaxed font-sans font-light">
+                  <p className="text-[10px] sm:text-xs text-zinc-300 leading-relaxed font-sans font-light">
                     {item.description}
                   </p>
                 </div>

@@ -59,7 +59,7 @@ export default function ModulesCarousel() {
             {[...MODULE_IMAGES, ...MODULE_IMAGES].map((img, idx) => (
               <div 
                 key={idx} 
-                className="h-[380px] sm:h-[480px] shrink-0 relative"
+                className="h-[240px] sm:h-[480px] shrink-0 relative"
               >
                 <img
                   src={img}

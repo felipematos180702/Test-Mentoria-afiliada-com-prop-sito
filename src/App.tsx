@@ -57,7 +57,7 @@ export default function App() {
             : "bg-transparent p-5"
         }`}
       >
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
+        <div className="max-w-7xl mx-auto flex items-center justify-between relative">
           
           {/* Logo / Brand */}
           <a
@@ -77,6 +77,16 @@ export default function App() {
               </span>
             </div>
           </a>
+
+          {/* Centered Image */}
+          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center">
+            <img
+              src="https://lh3.googleusercontent.com/d/1rlebRJeEK9OlcJUYI1TVlZXXoETJrEcc"
+              alt="Logo Mentoria AP"
+              referrerPolicy="no-referrer"
+              className="h-14 sm:h-22 w-auto object-contain"
+            />
+          </div>
 
           {/* Navigation Links - Desktop Only */}
           <nav className="hidden md:flex items-center gap-7">
