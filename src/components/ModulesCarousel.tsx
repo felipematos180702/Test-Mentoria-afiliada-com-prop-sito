@@ -48,7 +48,7 @@ export default function ModulesCarousel() {
           <div className="pointer-events-none absolute right-0 top-0 z-10 h-full w-[10%] bg-gradient-to-l from-earth-900 to-transparent"></div>
           
           <motion.div
-            className="flex w-max gap-4 px-2"
+            className="flex w-max gap-4 px-2 will-change-transform transform-gpu"
             animate={{ x: ["0%", "-50%"] }}
             transition={{
               duration: 40,
@@ -59,13 +59,13 @@ export default function ModulesCarousel() {
             {[...MODULE_IMAGES, ...MODULE_IMAGES].map((img, idx) => (
               <div 
                 key={idx} 
-                className="h-[240px] sm:h-[480px] shrink-0 relative"
+                className="h-[240px] sm:h-[480px] shrink-0 relative rounded-xl overflow-hidden shadow-2xl shadow-black/40"
               >
                 <img
                   src={img}
                   alt={`Módulo ${idx + 1}`}
                   referrerPolicy="no-referrer"
-                  className="h-full w-auto object-contain drop-shadow-2xl"
+                  className="h-full w-auto object-contain"
                   loading="lazy"
                 />
               </div>
